@@ -1,0 +1,41 @@
+.sources-page {
+    padding: 20px;
+    background-color: #1e1e26;
+    color: #f1f1f1;
+  }
+  
+  .sources-page h1 {
+    text-align: center;
+    color: #39c2d7;
+  }
+  
+  .sources-list {
+    margin-top: 20px;
+  }
+  
+  .source-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2a2a3c;
+    border-radius: 8px;
+  }
+  
+  .source-item h3 {
+    margin: 0;
+    color: #39c2d7;
+  }
+  
+  .source-item h3 a {
+    color: #39c2d7;
+    text-decoration: none;
+  }
+  
+  .source-item h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .source-item p {
+    margin-top: 10px;
+    color: #999;
+  }
+  

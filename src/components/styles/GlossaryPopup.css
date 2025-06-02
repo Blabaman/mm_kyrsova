@@ -1,0 +1,51 @@
+.glossary-trigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.glossary-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #1e1e26;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.popup-content h3 {
+  color: #39c2d7;
+}
+
+.popup-content p {
+  margin-top: 10px;
+  color: #999;
+}
+
+.close-btn {
+  background-color: #39c2d7;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.close-btn:hover {
+  background-color: #2a9fbb;
+}
